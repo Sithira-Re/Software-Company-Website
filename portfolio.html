@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Company<span>Name</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Portfolio</h1>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> / <span>Portfolio</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Gallery -->
+        <section class="portfolio">
+            <div class="container">
+                <div class="portfolio-filters">
+                    <button class="portfolio-filter-btn active" data-filter="all">All</button>
+                    <button class="portfolio-filter-btn" data-filter="web">Web Design</button>
+                    <button class="portfolio-filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="portfolio-filter-btn" data-filter="branding">Branding</button>
+                </div>
+                <div class="portfolio-grid" id="portfolioGrid">
+                    <!-- Web Design Projects -->
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="/api/placeholder/400/300" alt="E-commerce Website">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>E-commerce Website</h3>
+                            <p>Web Design & Development</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="/api/placeholder/400/300" alt="Corporate Website">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Corporate Website</h3>
+                            <p>Web Design & Development</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="/api/placeholder/400/300" alt="Educational Platform">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Educational Platform</h3>
+                            <p>Web Application</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Mobile App Projects -->
+                    <div class="portfolio-item" data-category="mobile">
+                        <div class="portfolio-image">
+                            <img src="/api/placeholder/400/300" alt="Fitness Tracker App">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Fitness Tracker App</h3>
+                            <p>Mobile Application</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="mobile">
+                        <div class="portfolio-image">
+                            <img src="/api/placeholder/400/300" alt="Food Delivery App">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Food Delivery App</h3>
+                            <p>Mobile Application</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="mobile">
+                        <div class="portfolio-image">
+                            <img src="/api/placeholder/400/300" alt="Travel Companion App">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Travel Companion App</h3>
+                            <p>Mobile Application</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Branding Projects -->
+                    <div class="portfolio-item" data-category="branding">
+                        <div class="portfolio-image">
+                            <img src="/api/placeholder/400/300" alt="Restaurant Branding">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Restaurant Branding</h3>
+                            <p>Branding & Identity</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="branding">
+                        <div class="portfolio-image">
+                            <img src="/api/placeholder/400/300" alt="Fashion Brand Identity">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Fashion Brand Identity</h3>
+                            <p>Branding & Identity</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="branding">
+                        <div class="portfolio-image">
+                            <img src="/api/placeholder/400/300" alt="Tech Startup Branding">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Tech Startup Branding</h3>
+                            <p>Branding & Identity</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Showcase -->
+        <section class="featured-project">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Featured Project</h2>
+                    <p>See how we helped a growing tech company transform their online presence</p>
+                </div>
+                <div class="featured-project-content">
+                    <div class="featured-project-image">
+                        <img src="/api/placeholder/600/400" alt="Featured Project">
+                    </div>
+                    <div class="featured-project-details">
+                        <h3>TechInnovate Website Redesign</h3>
+                        <div class="project-meta">
+                            <span><strong>Client:</strong> TechInnovate</span>
+                            <span><strong>Category:</strong> Web Design</span>
+                            <span><strong>Completed:</strong> January 2025</span>
+                        </div>
+                        <p>TechInnovate, a growing technology company, approached us to redesign their outdated website and create a modern digital presence that would better reflect their innovative solutions and attract new clients.</p>
+                        <h4>Challenge</h4>
+                        <p>The client's existing website was outdated, difficult to navigate, and wasn't effectively showcasing their services or generating leads.</p>
+                        <h4>Solution</h4>
+                        <p>We developed a modern, responsive website with improved user experience, clear service offerings, integrated lead capture forms, and optimized performance for search engines.</p>
+                        <h4>Results</h4>
+                        <ul class="project-results">
+                            <li><i class="fas fa-check"></i> 150% increase in lead generation</li>
+                            <li><i class="fas fa-check"></i> 60% reduction in bounce rate</li>
+                            <li><i class="fas fa-check"></i> 45% increase in organic traffic</li>
+                        </ul>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Have a project in mind?</h2>
+                    <p>Let's discuss how we can help bring your vision to life.</p>
+                    <a href="contact.html" class="btn">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-widget">
+                        <h3>Company<span>Name</span></h3>
+                        <p>We create beautiful digital experiences that stand out and bring results.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-widget">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h4>Services</h4>
+                        <ul class="footer-links">
+                            <li><a href="services.html">Web Development</a></li>
+                            <li><a href="services.html">Mobile App Development</a></li>
+                            <li><a href="services.html">UI/UX Design</a></li>
+                            <li><a href="services.html">Digital Marketing</a></li>
+                            <li><a href="services.html">Branding & Identity</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h4>Contact Info</h4>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-map-marker-alt"></i> 123 Street Name, City, Country</li>
+                            <li><i class="fas fa-phone"></i> +1 234 567 8900</li>
+                            <li><i class="fas fa-envelope"></i> info@example.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 CompanyName. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
